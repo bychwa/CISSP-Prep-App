@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="cissp">
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/angular.js"></script>
+    <script type="text/javascript" src="/javascripts/angular-route.js"></script>
+    <script type="text/javascript" src="/javascripts/lodash.js"></script>
+    <script type="text/javascript" src="/javascripts/wizard.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/wizard.css">
+
+     <script type="text/javascript" src="/javascripts/app.js"></script>
+     <script type="text/javascript" src="/javascripts/services.js"></script>
+     <script type="text/javascript" src="/javascripts/controllers.js"></script>
+     
+    <style type="text/css">
+    	#element::-webkit-scrollbar { width: 0 !important }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="panel panel-footer panel-shadow">
+      
+      <div class="panel-body" style="text-align:center">
+        <h4 class="margin-t-none">CISSP Exam Preparation</h4>
+      </div>
+
+      <div style="padding:10px;" ng-view></div>
+
+      <div class="panel-footer" style="text-align:center">&copy 2015 </div>
+
+    </div>	
+  </body>
+</html>

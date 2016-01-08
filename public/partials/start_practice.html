@@ -1,0 +1,54 @@
+<wizard hide-indicators="false" on-finish="finishedWizard()"> 
+    <wz-step title="Intro">
+        <div class="panel panel-default panel-shadow">
+            <div class="panel-body text-center"><br/>
+                <h4 class="margin-t-none">{{ exam_data.exam_title }}</h4>
+                <i>{{ exam_data.exam_instructions }}</i>
+            </div>
+            <div class="panel-body">
+                <div class="text-right">
+                    <input type="submit" class="btn btn-default-primary" wz-next value="Start" />    
+                </div>
+                
+            </div>
+        </div>
+        
+    </wz-step>
+
+    <wz-step title="{{ $index+1 }}" ng-repeat="(qn_id,question) in exam_data.questions">
+        <div class="panel panel-default panel-shadow">
+            
+            <div class="panel-body"><br/>
+                <h4 class="margin-t-none">{{ question.question_text }}</h4>
+                <i>{{ question.question_hint }}</i>
+
+            </div>
+            
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="(key,choice) in question.question_choices"> 
+                   
+                   <label><input type="radio" ng-model="answers.question[key]" value="{{ choice }}"> {{ choice }}</label>
+
+                        
+                    <div class="radio radio-info radio-inline">
+                        <!-- <input type="radio" ng-model="answers.question_1" value="{{ choice }}"> -->
+                        <!-- <label>{{ choice }}</label> -->
+                    </div>
+
+                </li>
+                
+            </ul>
+            <div class="panel-body">
+                <div class="text-left bold badge badge-warning">Your Answer: <i>{{ answers }}</i></div>
+                <div class="text-right">
+                    <input type="submit" class="btn btn-default-primary" wz-next value="Next" />    
+                </div>
+                
+            </div>
+        </div>
+        
+    </wz-step>
+
+    
+    
+</wizard>

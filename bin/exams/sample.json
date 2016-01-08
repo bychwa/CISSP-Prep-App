@@ -1,0 +1,48 @@
+{
+  "exam_id":"12231SX",
+  "exam_duration":"120 min",
+  "exam_title":"General Practice Exam",
+  "exam_meta":"",
+  "exam_instructions":"Don’t underestimate the challenge of mastering the material in the Physical Security domain. If you are not a physical security expert and don’t work in this field on a regular basis, give yourself plenty of time to review the concepts. This domain encompasses all areas of physical security, from choosing a site to securing it against natural or man-made disasters. As a CISSP, you must protect not only the company’s assets but also its employees. The following list includes some key areas from this content that you need to master for the CISSP exam:",
+  "questions":[
+       {
+           "question_index":"12231SX_1",
+           "question_text":"The number one priority of disaster planning should always be:",
+           "question_hint":"TOPIC: Business Continuity Planning and Disaster Recovery Planning",
+           "question_choices":["Preservation of capital","Personnel evacuation and safety","Resumption of core business functions","Investor relations"],
+           "question_answer":"Personnel evacuation and safety"
+       },
+       {
+           "question_index":"12231SX_2",
+           "question_text":"what is biology",
+           "question_hint":"general",
+           "question_choices":["biology is nothing","biology is something","biology is everything"],
+           "question_answer":"biology is everything"
+       },{
+           "question_index":"12231SX_1",
+           "question_text":"what is papuchi",
+           "question_hint":"general",
+           "question_choices":["biology is nothing","biology is something","biology is everything"],
+           "question_answer":"biology is everything"
+       },{
+           "question_index":"12231SX_1",
+           "question_text":"what is biology",
+           "question_hint":"general",
+           "question_choices":["biology is nothing","biology is something","biology is everything"],
+           "question_answer":"biology is everything"
+       },{
+           "question_index":"12231SX_1",
+           "question_text":"what is biology",
+           "question_hint":"general",
+           "question_choices":["biology is nothing","biology is something","biology is everything"],
+           "question_answer":"biology is everything"
+       },
+       {
+           "question_index":"12231SX_2",
+           "question_text":"",
+           "question_hint":"",
+           "question_choices":["one","two","three"],
+           "question_answer":"one"
+        }
+    ]
+}
